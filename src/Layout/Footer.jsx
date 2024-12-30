@@ -17,8 +17,9 @@ const Footer = () => {
                   <div className="about-logo">
                     <Link to="/">
                       <img
-                        src="assets/img/logo-white.svg"
+                        src="assets/img/logo.png"
                         alt="COGNITECH SOLUTIONS"
+                        style={{ height: "7rem" }}
                       />
                     </Link>
                   </div>
@@ -26,7 +27,7 @@ const Footer = () => {
                     Many desktop ublishing packages web page editors no Lorem
                     Ipsum a default model text
                   </p> */}
-                  <div className="social-btn">
+                  {/* <div className="social-btn">
                     <Link to="#" tabIndex={-1}>
                       <i className="fab fa-facebook-f" />
                     </Link>
@@ -39,7 +40,7 @@ const Footer = () => {
                     <Link to="#" tabIndex={-1}>
                       <i className="fab fa-linkedin-in" />
                     </Link>
-                  </div>
+                  </div> */}
                 </div>
               </div>
               <div className="col-md-6 col-xl-auto">
@@ -93,26 +94,37 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        {/* <div className="container">
+        <div className="container">
           <div className="copyright-wrap">
             <div className="row gy-3 justify-content-lg-between justify-content-center">
-              <div className="col-auto align-self-center">
+              {/* <div className="col-auto align-self-center">
                 <p className="copyright-text text-center">
                   © <Link to="#">COGNITECH SOLUTIONS </Link> 2024 | All Rights
                   Reserved
                 </p>
-              </div>
-              <div className="col-auto">
-                <div className="footer-links">
-                  <Link to="/contact">Privacy</Link>
-                  <Link to="/contact">Terms</Link>
-                  <Link to="/contact">Sitemap</Link>
-                  <Link to="/contact">Help</Link>
+              </div> */}
+              <div className="">
+                <div
+                  className="social-btn"
+                  style={{ justifyContent: "center" }}
+                >
+                  <Link to="#" tabIndex={-1}>
+                    <i className="fab fa-facebook-f" />
+                  </Link>
+                  <Link to="#" tabIndex={-1}>
+                    <i className="fab fa-twitter" />
+                  </Link>
+                  <Link to="#" tabIndex={-1}>
+                    <i className="fab fa-instagram" />
+                  </Link>
+                  <Link to="#" tabIndex={-1}>
+                    <i className="fab fa-linkedin-in" />
+                  </Link>
                 </div>
               </div>
             </div>
           </div>
-        </div> */}
+        </div>
       </footer>
     </section>
   );

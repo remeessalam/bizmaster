@@ -77,7 +77,7 @@ const Header = () => {
         <div className="mobile-menu-area">
           <div className="mobile-logo">
             <Link to="/">
-              <img src="assets/img/logo.svg" alt="COGNITECH SOLUTIONS" />
+              <img src="assets/img/logo.png" alt="COGNITECH SOLUTIONS" />
             </Link>
             <button className="menu-toggle" onClick={mobileMenu}>
               <i className="fa fa-times" />
@@ -117,7 +117,11 @@ const Header = () => {
               <div className="col-auto">
                 <div className="header-logo">
                   <Link to="/">
-                    <img src="assets/img/logo-white.svg" alt="logo" />
+                    <img
+                      src="assets/img/logo.png"
+                      alt="logo"
+                      style={{ height: "6rem" }}
+                    />
                   </Link>
                 </div>
               </div>
