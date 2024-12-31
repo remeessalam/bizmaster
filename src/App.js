@@ -11,6 +11,7 @@ import ServiceDetails from "./pages/ServiceDetails";
 import Contact from "./pages/Contact";
 import Error from "./pages/Error";
 import LandingPage from "./pages/LandingPage";
+import { Toaster } from "react-hot-toast";
 
 const App = () => {
   return (
@@ -18,6 +19,15 @@ const App = () => {
       <BrowserRouter>
         <RouteScrollToTop />
         <ScrollToTop smooth color="#196164" />
+        <Toaster
+          position="top-bottom"
+          toastOptions={{
+            style: {
+              background: "#010C2A",
+              color: "#ffffff",
+            },
+          }}
+        />
         <Routes>
           <Route exact path="/" element={<Home />} />
           <Route exact path="/about" element={<About />} />

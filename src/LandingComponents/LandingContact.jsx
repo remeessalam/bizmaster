@@ -1,7 +1,53 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React, { useState } from "react";
+import { useForm } from "react-hook-form";
+import toast from "react-hot-toast";
+import { Link, useNavigate } from "react-router-dom";
 
 const LandingContact = () => {
+  const [spinner, setSpinner] = useState(false);
+  const {
+    register,
+    handleSubmit,
+    formState: { errors },
+    reset,
+  } = useForm();
+  const navigate = useNavigate();
+  const onSubmit = async (data) => {
+    console.log(data);
+    setSpinner(true);
+
+    var emailBody = "Name: " + data.name + "\n\n";
+    emailBody += "Email: " + data.email + "\n\n";
+    emailBody += "Phone: " + data.phone + "\n\n";
+    emailBody += "Subject: " + data.subject + "\n\n";
+    emailBody += "Message:\n" + data.message;
+
+    // Construct the request payload
+    var payload = {
+      // to: companyDetails.email,
+      to: "remeesreme4u@gmail.com",
+      subject: "You have a new message from COGNITECH",
+      body: emailBody,
+    };
+
+    await fetch("https://smtp-api-tawny.vercel.app/send-email", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(payload),
+    })
+      .then((response) => response.json())
+      .then(() => {
+        toast.success("Email sent successfully");
+        reset();
+        // navigate("/thank-you");
+      })
+      .catch((error) => {
+        toast.error(error.message);
+      })
+      .finally(() => setSpinner(false));
+  };
   return (
     <div className="bg-dark2">
       <div className="space-bottom">
@@ -36,52 +82,90 @@ const LandingContact = () => {
             </div>
             <div className="col-xl-6 col-lg-8">
               <div className="contact-form">
-                <div className="row">
+                <form className="row" onSubmit={handleSubmit(onSubmit)}>
                   <div className="col-md-6 form-group">
                     <input
                       type="text"
                       placeholder="Your Name"
                       className="form-control style-border"
+                      style={{ color: "white" }}
+                      {...register("name", { required: "Name is required" })}
                     />
+                    {errors.name && (
+                      <p style={{ color: "#ff6262" }}>{errors.name.message}</p>
+                    )}
                   </div>
                   <div className="col-md-6 form-group">
                     <input
                       type="text"
                       placeholder="Your Email"
                       className="form-control style-border"
+                      style={{ color: "white" }}
+                      {...register("email", { required: "Email is required" })}
                     />
+                    {errors.email && (
+                      <p style={{ color: "#ff6262" }}>{errors.email.message}</p>
+                    )}
                   </div>
                   <div className="col-md-6 form-group">
                     <input
                       type="text"
                       placeholder="Phone Number"
                       className="form-control style-border"
+                      style={{ color: "white" }}
+                      {...register("phone", {
+                        required: "Phone number is required",
+                      })}
                     />
+                    {errors.phone && (
+                      <p style={{ color: "#ff6262" }}>{errors.phone.message}</p>
+                    )}
                   </div>
                   <div className="col-md-6 form-group">
                     <input
                       type="text"
                       placeholder="Subject"
                       className="form-control style-border"
+                      style={{ color: "white" }}
+                      {...register("subject", {
+                        required: "Subject is required",
+                      })}
                     />
+                    {errors.subject && (
+                      <p style={{ color: "#ff6262" }}>
+                        {errors.subject.message}
+                      </p>
+                    )}
                   </div>
                   <div className="col-12 form-group">
                     <textarea
                       placeholder="Message here.."
                       className="form-control style-border"
-                      defaultValue={""}
+                      style={{ color: "white" }}
+                      {...register("message", {
+                        required: "Message is required",
+                      })}
                     />
+                    {errors.message && (
+                      <p style={{ color: "#ff6262" }}>
+                        {errors.message.message}
+                      </p>
+                    )}
                   </div>
                   <div className="col-12 form-group mb-0">
-                    <button className="global-btn w-100">
-                      Send Now
+                    <button
+                      disabled={spinner}
+                      type="submit"
+                      className="global-btn w-100"
+                    >
+                      {spinner ? "Sending..." : "Send Now"}
                       <img
                         src="assets/img/icon/right-icon.svg"
                         alt="COGNITECH SOLUTIONS"
                       />
                     </button>
                   </div>
-                </div>
+                </form>
               </div>
             </div>
           </div>
