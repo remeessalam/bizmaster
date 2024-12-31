@@ -16,6 +16,17 @@ import web from "./assets/image/services/web.jpg";
 import app from "./assets/image/services/app.jpg";
 import chat from "./assets/image/services/chat.jpg";
 import ml from "./assets/image/services/ml.jpg";
+
+// ai services image
+import inbound from "./assets/image/landingpage/inbound.jpg";
+import outbound from "./assets/image/landingpage/outbound.jpg";
+
+//rpa service image
+import automation from "./assets/image/landingpage/automation.jpg";
+import data from "./assets/image/landingpage/data.jpg";
+import invoice from "./assets/image/landingpage/invoice.jpg";
+import customer from "./assets/image/landingpage/cutomer.jpg";
+import compliance from "./assets/image/landingpage/compliance.jpg";
 export const routes = [
   {
     name: "Home",
@@ -63,9 +74,9 @@ export const services = [
   {
     id: 2,
     img: custome,
-    title: "Custom Software Development",
+    title: "AI Calling Agency",
     description:
-      "We build software designed specifically for your business needs. Our solutions ensure seamless functionality, scalability, and outstanding performance, helping your organization stay ahead of the curve.",
+      "Transform how your business connects with customers. Our AI calling solutions handle inbound and outbound calls seamlessly, from booking appointments to qualifying leads. Save time, reduce costs, and increase close rates with our cutting-edge AI agents.",
   },
   {
     id: 3,
@@ -292,4 +303,203 @@ export const faqs = [
   //   answer:
   //     "Cognitech Solutions serves a diverse range of industries, including finance, healthcare, retail, logistics, and more. Our expertise allows us to address industry-specific challenges effectively.",
   // },
+];
+
+export const rpaservices = [
+  {
+    id: 1,
+    img: automation,
+    title: "Process Automation",
+    description:
+      "Optimize workflows by automating repetitive tasks, boosting speed and consistency.",
+  },
+  {
+    id: 2,
+    img: data,
+    title: "Data Management",
+    description:
+      "Simplify data entry, validation, and integration across systems to improve operational efficiency.",
+  },
+  {
+    id: 3,
+    img: invoice,
+    title: "Invoice Automation",
+    description:
+      "Streamline billing processes for faster, error-free invoicing and better cash flow management.",
+  },
+  {
+    id: 4,
+    img: customer,
+    title: "Customer Interaction Automation",
+    description:
+      "Deploy bots to handle routine inquiries, freeing up your team for more complex customer needs.",
+  },
+  {
+    id: 5,
+    img: compliance,
+    title: "Compliance and Reporting Automation",
+    description:
+      "Ensure regulatory compliance and generate accurate reports effortlessly with automated solutions.",
+  },
+];
+export const aiCalling = [
+  {
+    id: 1,
+    img: inbound,
+    title: "Inbound Calling Support",
+    description:
+      "Let our AI agents manage your inbound calls with accuracy and professionalism. From answering customer questions to booking appointments, we ensure every interaction reflects your brand’s excellence while giving your team more time to focus on growth.",
+  },
+  {
+    id: 2,
+    img: outbound,
+    title: "Outbound Calling Services",
+    description:
+      "Our outbound AI agents are skilled at cold calling potential leads, qualifying prospects, and scheduling appointments. We eliminate the manual effort and guesswork, so your sales team can concentrate on what they do best—closing deals.",
+  },
+];
+
+export const whyChooseAI = [
+  {
+    id: 1,
+    title: "Always Available",
+    description:
+      "Our AI agents work 24/7, ensuring you never miss a lead or opportunity.",
+  },
+  {
+    id: 2,
+    title: "Cost Savings",
+    description:
+      "Automate repetitive calling tasks to reduce overhead while maintaining high service quality.",
+  },
+  {
+    id: 3,
+    title: "Higher Close Rates",
+    description:
+      "AI intelligently qualifies leads, ensuring your team engages with high-potential prospects.",
+  },
+  {
+    id: 4,
+    title: "Personalized Experience",
+    description:
+      "Customize workflows and scripts to reflect your brand's voice and cater to individual customer needs.",
+  },
+];
+
+export const whyChooseRPA = [
+  {
+    id: 1,
+    title: "Expertise You Can Rely On",
+    description:
+      "Our experienced team delivers robust, scalable automation solutions.",
+  },
+  {
+    id: 2,
+    title: "Customized for Your Business",
+    description: "Every solution is tailored to your specific requirements.",
+  },
+  {
+    id: 3,
+    title: "Dedicated Support",
+    description:
+      "From planning to implementation and beyond, we’re with you every step of the way.",
+  },
+];
+export const rpaTestimonials = [
+  {
+    id: 1,
+    quote:
+      "Cognitek transformed the way we handle our workflows. What used to take hours is now done in minutes, with zero errors. Their RPA solution has truly elevated our operational efficiency.",
+    author: "Mark L.",
+    position: "Operations Manager",
+    company: "Streamline Corp.",
+  },
+  {
+    id: 2,
+    quote:
+      "Thanks to Cognitek, we automated our invoicing system, cutting processing time by 70% and improving accuracy across the board. It’s been a game-changer for our finance team!",
+    author: "Emily R.",
+    position: "CFO",
+    company: "NovaFinTech",
+  },
+  {
+    id: 3,
+    quote:
+      "The RPA tools from Cognitek have simplified our data entry and integration tasks. We’ve seen a dramatic improvement in consistency and saved countless hours of manual work.",
+    author: "Sophia T.",
+    position: "Data Manager",
+    company: "DigiFlow",
+  },
+  {
+    id: 4,
+    quote:
+      "Our customer service has improved significantly since implementing Cognitek RPA solution. Routine inquiries are handled instantly, allowing our team to focus on resolving complex issues. Customer satisfaction is at an all-time high!",
+    author: "Jason M.",
+    position: "Customer Experience Lead",
+    company: "BrightLine Support",
+  },
+  {
+    id: 5,
+    quote:
+      "Working with Cognitek was seamless. Their team identified inefficiencies in our processes and implemented automation that increased our productivity by 40%. We couldn’t be happier with the results!",
+    author: "Linda K.",
+    position: "CEO",
+    company: "OptiWork Enterprises",
+  },
+];
+export const aiTestimonials = [
+  {
+    id: 1,
+    industry: "Real Estate",
+    quote:
+      "Since we started using Cognitek at UrbanNest Realty, managing inquiries has become effortless. Their AI books property viewings efficiently, and our team can now focus on closing deals rather than chasing leads. We’ve seen a 30% increase in successful showings!",
+    author: "Sarah M.",
+    position: "Lead Agent",
+    company: "UrbanNest Realty",
+  },
+  {
+    id: 2,
+    industry: "Healthcare",
+    quote:
+      "At Healthy Horizons Clinic, handling patient calls used to be chaotic. Cognitek streamlined our appointment system, ensuring every patient is attended to promptly. Our staff is happier, and patient satisfaction is at an all-time high!",
+    author: "Dr. Emily T.",
+    position: "Clinic Manager",
+    company: "Healthy Horizons Clinic",
+  },
+  {
+    id: 3,
+    industry: "Retail",
+    quote:
+      "Cognitek has been a huge asset to ShopSmart Electronics. Their AI calling service manages customer support and post-purchase feedback with such ease. It’s like having an extra team that never sleeps. Highly recommend!",
+    author: "John L.",
+    position: "Owner",
+    company: "ShopSmart Electronics",
+  },
+  {
+    id: 4,
+    industry: "Hospitality",
+    quote:
+      "At Royal Palm Resort, guest satisfaction is our priority. Cognitek’s AI agents handle reservations and inquiries flawlessly, leaving our team more time to focus on creating memorable experiences for our guests. We’ve seen a 20% boost in positive reviews!",
+    author: "Raj P.",
+    position: "Manager",
+    company: "Royal Palm Resort",
+  },
+  {
+    id: 5,
+    industry: "Beauty and Wellness",
+    quote:
+      "Cognitek completely transformed scheduling for Bliss Haven Spa. Clients love the automated reminders, and our no-shows have dropped significantly. Their AI calling service keeps our calendar running smoothly, letting us focus on pampering our clients.",
+    author: "Lila R.",
+    position: "Owner",
+    company: "Bliss Haven Spa",
+  },
+  {
+    id: 6,
+    industry: "Technology",
+    quote:
+      "Partnering with Cognitek at CodeTech Innovations was the best decision we made this year. Their outbound AI agents qualify leads with incredible precision and have boosted our demo bookings by 40%. It’s a game-changer for SaaS companies.",
+    author: "Alex W.",
+    position: "Sales Manager",
+    company: "CodeTech Innovations",
+  },
 ];

@@ -10,6 +10,7 @@ import ServiceDetails from "./pages/ServiceDetails";
 
 import Contact from "./pages/Contact";
 import Error from "./pages/Error";
+import LandingPage from "./pages/LandingPage";
 
 const App = () => {
   return (
@@ -23,6 +24,16 @@ const App = () => {
           <Route exact path="/service" element={<Service />} />
           <Route exact path="/service-details" element={<ServiceDetails />} />
           <Route exact path="/contact" element={<Contact />} />
+          <Route
+            exact
+            path="/rpa-development"
+            element={<LandingPage page="rpa" />}
+          />
+          <Route
+            exact
+            path="/ai-calling-development"
+            element={<LandingPage page="ai" />}
+          />
           <Route exact path="*" element={<Error />} />
         </Routes>
       </BrowserRouter>
