@@ -20,18 +20,27 @@ const LandingPage = ({ page }) => {
   return (
     <>
       {active === true && <Preloader />}
-
       <LandingPageHeader />
       <LandingBanner page={page} />
       <div className="bg-dark2 space-top">
         <LandingContact />
       </div>
-      <LandingAbout page={page} />
-      <LandingService page={page} />
-      <LandingWhyChoose page={page} />
-      <LandingTestimonial page={page} />
+      <div id="about">
+        <LandingAbout page={page} />
+      </div>
+      <div id="service">
+        <LandingService page={page} />
+      </div>
+      <div id="why-choose">
+        <LandingWhyChoose page={page} />
+      </div>
+      <div id="testimonial">
+        <LandingTestimonial page={page} />
+      </div>
       <BlogFive />
-      <LandingContact />
+      <div id="contact" className="bg-dark2 space-top">
+        <LandingContact />
+      </div>
       <LandingPageFooter />
     </>
   );

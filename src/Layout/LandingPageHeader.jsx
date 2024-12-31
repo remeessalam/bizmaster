@@ -45,34 +45,34 @@ const LandingPageHeader = () => {
     };
   }, []);
 
+  const handleScrollToSection = (id) => {
+    const section = document.getElementById(id);
+    if (section) {
+      const headerHeight = document.querySelector(".tonavigate").offsetHeight;
+      const offsetPosition = section.offsetTop - headerHeight;
+
+      window.scrollTo({
+        top: offsetPosition,
+        behavior: "smooth",
+      });
+    }
+    setActive(false); // Close the mobile menu if it's open
+  };
+
+  useEffect(() => {
+    window.onscroll = () => {
+      setScroll(window.pageYOffset > 250);
+      return () => (window.onscroll = null);
+    };
+  }, []);
+
   const mobileMenu = () => {
     setActive(!active);
   };
 
-  const searchControl = (active) => {
-    setSearch(active);
-  };
-
-  // const sidebarControl = (active) => {
-  //   setSidebar(active);
-  // };
-
   return (
-    <>
-      {/* <div className={`popup-search-box ${search === true ? "show" : ""} `}>
-        <button className="searchClose" onClick={() => searchControl(false)}>
-          <i className="fas fa-times" />
-        </button>
-        <form>
-          <input type="text" placeholder="What are you looking for?" />
-          <button type="submit">
-            <i className="fas fa-search" />
-          </button>
-        </form>
-      </div> */}
-
+    <div className="tonavigate">
       {/* Mobile Menu */}
-
       <div className={`mobile-menu-wrapper ${active ? "body-visible" : ""}`}>
         <div className="mobile-menu-area">
           <div className="mobile-logo">
@@ -89,21 +89,19 @@ const LandingPageHeader = () => {
           </div>
           <div className="mobile-menu">
             <ul id="offcanvas-navigation">
-              <li className=" ">
+              <li>
                 <Link to="/">Home</Link>
               </li>
-
+              <li onClick={() => handleScrollToSection("about")}>
+                <Link to="#">About</Link>
+              </li>
+              <li onClick={() => handleScrollToSection("service")}>
+                <Link to="#">Services</Link>
+              </li>
+              <li onClick={() => handleScrollToSection("contact")}>
+                <Link to="#">Contact</Link>
+              </li>
               <li>
-                <Link to="/about">About</Link>
-              </li>
-
-              <li className="">
-                <Link to="/service">Service</Link>
-              </li>
-              <li>
-                <Link to="/contact">Contact</Link>
-              </li>
-              <li className="">
                 <Link to="#">Blog</Link>
               </li>
             </ul>
@@ -112,10 +110,8 @@ const LandingPageHeader = () => {
       </div>
 
       {/* Header Area */}
-
       <header className="nav-header header-layout5">
         <div className={`sticky-wrapper ${scroll && "sticky"}`}>
-          {/* Main Menu Area */}
           <div className="container">
             <div className="row align-items-center justify-content-between">
               <div className="col-auto">
@@ -132,22 +128,19 @@ const LandingPageHeader = () => {
               <div className="col-auto">
                 <nav className="main-menu d-none d-lg-inline-block">
                   <ul>
-                    <li className="">
+                    <li>
                       <Link to="/">Home</Link>
                     </li>
-
+                    <li onClick={() => handleScrollToSection("about")}>
+                      <Link to="#">About Us</Link>
+                    </li>
+                    <li onClick={() => handleScrollToSection("service")}>
+                      <Link to="#">Services</Link>
+                    </li>
+                    <li onClick={() => handleScrollToSection("contact")}>
+                      <Link to="#">Contact</Link>
+                    </li>
                     <li>
-                      <Link to="/about">About Us</Link>
-                    </li>
-                    <li className="">
-                      <Link to="/service">Services</Link>
-                    </li>
-
-                    <li>
-                      <Link to="/contact">Contact</Link>
-                    </li>
-
-                    <li className="">
                       <Link to="#">Blog</Link>
                     </li>
                   </ul>
@@ -166,7 +159,7 @@ const LandingPageHeader = () => {
           </div>
         </div>
       </header>
-    </>
+    </div>
   );
 };
 
