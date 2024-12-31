@@ -59,7 +59,7 @@ const Footer = () => {
               </div>
               <div className="col-md-6 col-xl-3">
                 <div className="widget footer-widget">
-                  <h3 className="widget_title">Our Office</h3>
+                  <h3 className="widget_title">Contact us</h3>
                   <div className="widget-contact2">
                     <div className="widget-contact-grid">
                       <i className="fas fa-phone-alt" />

@@ -77,7 +77,11 @@ const Header = () => {
         <div className="mobile-menu-area">
           <div className="mobile-logo">
             <Link to="/">
-              <img src="assets/img/logo.png" alt="COGNITECH SOLUTIONS" />
+              <img
+                src="assets/img/logo.png"
+                alt="COGNITECH SOLUTIONS"
+                style={{ height: "4.25rem" }}
+              />
             </Link>
             <button className="menu-toggle" onClick={mobileMenu}>
               <i className="fa fa-times" />
@@ -120,7 +124,7 @@ const Header = () => {
                     <img
                       src="assets/img/logo.png"
                       alt="logo"
-                      style={{ height: "6rem" }}
+                      style={{ height: "4r.25em" }}
                     />
                   </Link>
                 </div>
