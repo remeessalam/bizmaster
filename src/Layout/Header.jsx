@@ -124,7 +124,7 @@ const Header = () => {
                     <img
                       src="assets/img/logo.png"
                       alt="logo"
-                      style={{ height: "4r.25em" }}
+                      style={{ height: "4.25rem" }}
                     />
                   </Link>
                 </div>
