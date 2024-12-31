@@ -32,20 +32,27 @@ export const routes = [
     name: "Home",
     path: "/",
     // component: <Home />,
+    landingpath: "home",
   },
   {
     name: "Services",
     path: "/service",
+    landingpath: "service",
+
     // component: <Service />,
   },
   {
     name: "About Us",
     path: "/about",
+    landingpath: "about",
+
     // component: <About />,
   },
   {
     name: "Contact Us",
     path: "/contact",
+    landingpath: "contact",
+
     // component: <Contact />,
   },
   {

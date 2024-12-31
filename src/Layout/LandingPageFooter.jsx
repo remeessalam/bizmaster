@@ -1,8 +1,31 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { companyDetails, routes } from "../constant";
 
 const LandingPageFooter = () => {
+  const [scroll, setScroll] = useState(false);
+  const [active, setActive] = useState(false);
+  const handleScrollToSection = (id) => {
+    const section = document.getElementById(id);
+    if (section) {
+      const headerHeight = document.querySelector(".tonavigate").offsetHeight;
+      const offsetPosition = section.offsetTop - headerHeight;
+
+      window.scrollTo({
+        top: offsetPosition,
+        behavior: "smooth",
+      });
+    }
+    setActive(false); // Close the mobile menu if it's open
+  };
+
+  useEffect(() => {
+    window.onscroll = () => {
+      setScroll(window.pageYOffset > 250);
+      return () => (window.onscroll = null);
+    };
+  }, []);
+
   return (
     <section className="bg-dark2">
       <footer
@@ -50,7 +73,14 @@ const LandingPageFooter = () => {
                     <ul className="menu">
                       {routes.map((obj) => (
                         <li>
-                          <Link to={obj.path}>{obj.name}</Link>
+                          <Link
+                            to={obj.name === "Home" ? "/" : "#"}
+                            onClick={() =>
+                              handleScrollToSection(obj.landingpath)
+                            }
+                          >
+                            {obj.name}
+                          </Link>
                         </li>
                       ))}
                     </ul>
