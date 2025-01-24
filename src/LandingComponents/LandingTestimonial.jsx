@@ -73,7 +73,7 @@ const LandingTestimonial = ({ page }) => {
                                   {obj.author}
                                 </h4>
                                 <span className="testi-profile-desig">
-                                  {obj.position} {obj.company}
+                                  {obj.position}, {obj.company}
                                 </span>
                               </div>
                             </div>

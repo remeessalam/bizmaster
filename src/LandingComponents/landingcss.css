@@ -1,5 +1,7 @@
 .whychoose-section {
-  padding: 4rem 2rem;
+  padding-top: 120px;
+  padding-right: 2rem;
+  padding-left: 2rem;
   background-color: #f8f9fa;
 }
 
@@ -47,7 +49,9 @@
 
 @media (max-width: 768px) {
   .whychoose-section {
-    padding: 3rem 1rem;
+    padding-top: 80px;
+    padding-right: 1rem;
+    padding-left: 1rem;
   }
 
   .whychoose-title {

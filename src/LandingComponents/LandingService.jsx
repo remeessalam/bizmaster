@@ -8,8 +8,8 @@ const LandingService = ({ page }) => {
   const servicesToShow = page === "rpa" ? rpaservices : aiCalling;
   return (
     <section className="bg-dark2">
-      <div className="service-area-4 space-top position-relative">
-        <div className="shadow-shape-right" />
+      <div className="service-area-4  position-relative">
+        {/* <div className="shadow-shape-right" /> */}
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-xl-7">
