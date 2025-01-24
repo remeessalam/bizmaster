@@ -64,10 +64,11 @@ export const routes = [
 
 export const companyDetails = {
   name: "COGNITECH SOLUTIONS",
-  email: "contact@cognitechsolutions.com",
+  email: "cogniteknologies@gmail.com",
   phone: "+91-7530003599",
   whatsapp: "7530003599",
-  address: "Villa 58, Aditya Royal Palm, Shaikpet, Hyderabad , India . 500008",
+  address:
+    "Plot No. 197, Z Elite, 2nd Floor, A, Kavuri Hills, Madhapur, Hyderabad, Telangana 500081",
 };
 
 export const services = [
@@ -371,25 +372,25 @@ export const whyChooseAI = [
     id: 1,
     title: "Always Available",
     description:
-      "Our AI agents work 24/7, ensuring you never miss a lead or opportunity.",
+      "Our outbound AI agents are skilled at cold calling potential leads, qualifying prospects, and scheduling appointments. We eliminate the manual effort and guesswork, so your sales team can concentrate on what they do best—closing deals.",
   },
   {
     id: 2,
     title: "Cost Savings",
     description:
-      "Automate repetitive calling tasks to reduce overhead while maintaining high service quality.",
+      "Reduce overhead by automating repetitive calling tasks while maintaining exceptional service quality.",
   },
   {
     id: 3,
     title: "Higher Close Rates",
     description:
-      "AI intelligently qualifies leads, ensuring your team engages with high-potential prospects.",
+      " We qualify leads intelligently, ensuring your team works only with high-potential prospects.",
   },
   {
     id: 4,
     title: "Personalized Experience",
     description:
-      "Customize workflows and scripts to reflect your brand's voice and cater to individual customer needs.",
+      "Customize scripts and workflows to align perfectly with your brand’s voice.",
   },
 ];
 
@@ -471,7 +472,7 @@ export const aiTestimonials = [
       "At Healthy Horizons Clinic, handling patient calls used to be chaotic. Cognitek streamlined our appointment system, ensuring every patient is attended to promptly. Our staff is happier, and patient satisfaction is at an all-time high!",
     author: "Dr. Emily T.",
     position: "Clinic Manager",
-    company: "Healthy Horizons Clinic",
+    company: "Healthy Horizons ",
   },
   {
     id: 3,

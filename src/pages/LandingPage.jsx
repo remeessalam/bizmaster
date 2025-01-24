@@ -22,9 +22,9 @@ const LandingPage = ({ page }) => {
       {active === true && <Preloader />}
       <LandingPageHeader />
       <LandingBanner page={page} />
-      <div className="bg-dark2 space-top">
+      {/* <div className="bg-dark2 space-top">
         <LandingContact />
-      </div>
+      </div> */}
       <div id="about">
         <LandingAbout page={page} />
       </div>

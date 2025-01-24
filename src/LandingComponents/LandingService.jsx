@@ -20,9 +20,8 @@ const LandingService = ({ page }) => {
                 </span>
                 <h2 className="sec-title style2 text-white">
                   {page === "rpa"
-                    ? "Revolutionizing Efficiency with RPA Services"
+                    ? ""
                     : "Transforming Your Business with AI Calling Services"}
-                  Your Business Goals with the Confidence{" "}
                 </h2>
               </div>
             </div>

@@ -1,6 +1,7 @@
 import React from "react";
 import Slider from "react-slick";
 import { aiTestimonials, rpaTestimonials } from "../constant";
+import { useLocation } from "react-router-dom";
 const LandingTestimonial = ({ page }) => {
   let settings = {
     dots: false,
@@ -28,6 +29,7 @@ const LandingTestimonial = ({ page }) => {
     ],
   };
   let testimonials = page === "rpa" ? rpaTestimonials : aiTestimonials;
+  const { pathname } = useLocation();
   return (
     <section className="bg-dark2">
       <div className="testimonial-area-5 space-top overflow-hidden">
@@ -40,7 +42,8 @@ const LandingTestimonial = ({ page }) => {
                   Clients Testimonial
                 </span>
                 <h2 className="sec-title style2 text-white">
-                  Your Business Goals a Confidence
+                  {pathname !== "/ai-calling-development" &&
+                    `Your Business Goals a Confidence`}
                 </h2>
               </div>
             </div>
@@ -61,7 +64,7 @@ const LandingTestimonial = ({ page }) => {
                             <div className="testi-card-profile">
                               <div className="testi-profile_thumb">
                                 <img
-                                  src="assets/img/testimonial/testi-thumb_3.png"
+                                  src="assets/img/testimonial/testi-thumb_3.jpg"
                                   alt="img"
                                 />
                               </div>

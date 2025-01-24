@@ -14,32 +14,29 @@ const LandingBanner = ({ page }) => {
                   <>
                     <h1 className="hero-title text-white">
                       Revolutionizing Your Business with
-                      <span className="text-theme2"> RPA</span>
+                      <br />
+                      <span className="text-theme2">
+                        {" "}
+                        Intelligent Automations
+                      </span>
                     </h1>
                     <p className="hero-text text-white">
-                      Accelerate innovation with cutting-edge Robotic Process
-                      Automation (RPA) solutions designed to streamline
-                      workflows, reduce manual tasks, and boost productivity,
-                      enabling your business to achieve new heights of
-                      efficiency and growth.
+                      Simplify workflows and eliminate manual tasks with
+                      Cognitek's smart RPA solutions—designed to let you focus
+                      on growing your business.
                     </p>
                   </>
                 ) : (
                   <>
                     <h1 className="hero-title text-white">
                       Revolutionizing Your Business with
-                      <span className="text-theme2">
-                        {" "}
-                        AI Calling Development
-                      </span>
+                      <br />
+                      <span className="text-theme2"> AI Calling</span>
                     </h1>
                     <p className="hero-text text-white">
-                      Transform your customer interactions with cutting-edge AI
-                      calling solutions. Our AI-driven calling systems enhance
-                      communication, automate responses, and provide intelligent
-                      insights, empowering your business to deliver faster, more
-                      personalized customer experiences while boosting
-                      efficiency and growth.
+                      24/7 AI agents deliver superior customer interactions that
+                      boost conversions while saving your business time and
+                      money
                     </p>
                   </>
                 )}

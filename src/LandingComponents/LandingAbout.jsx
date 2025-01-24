@@ -46,12 +46,12 @@ const LandingAbout = ({ page }) => {
                 </span>
                 <h2 className="sec-title style1 text-white">
                   {page === "rpa"
-                    ? "Unlock Efficiency with Robotic Process Automation (RPA)"
+                    ? "Unlock Efficiency with Robotic Process Automation"
                     : "Simplifying Communication. Accelerating Success."}
                 </h2>
                 {page === "rpa"
-                  ? "At Cognitek, we’re dedicated to helping businesses simplify their operations and achieve more. With our Robotic Process Automation (RPA) services, you can eliminate repetitive tasks, reduce errors, and enhance productivity. By automating key processes, we enable your team to focus on driving innovation and growth while saving time and resources."
-                  : "At Cognitek, we specialize in transforming how businesses manage their calls. Our AI-powered calling agency takes the complexity out of customer communication, delivering smarter, faster, and more cost-effective solutions. Whether you’re handling inbound inquiries or reaching out to new leads, we’ve got you covered."}
+                  ? "At Cognitek, we simplify operations with smart RPA solutions. By automating repetitive tasks, we help you reduce errors, save time, and focus on innovation and growth."
+                  : "At Cognitek, we specialize in transforming how businesses manage their calls. Our AI-powered calling agency takes the complexity out of customer communication, delivering smarter, faster and more cost-effective solutions. Whether you’re handling inbound inquiries or reaching out to new leads, we’ve got you covered."}
               </div>
               <div className="btn-wrap">
                 <Link to="/about" className="global-btn style3">

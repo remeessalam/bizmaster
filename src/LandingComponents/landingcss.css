@@ -22,7 +22,7 @@
 }
 
 .whychoose-item {
-  background-color: #ffffff;
+  background-color: #182631;
   border-radius: 8px;
   padding: 1.5rem;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -36,12 +36,12 @@
 .whychoose-item-title {
   font-size: 1.25rem;
   margin-bottom: 1rem;
-  color: #2c3e50;
+  color: #ffffff;
 }
 
 .whychoose-item-description {
   font-size: 1rem;
-  color: #555;
+  color: #c1cad4;
   line-height: 1.6;
 }
 

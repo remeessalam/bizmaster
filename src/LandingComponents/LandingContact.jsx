@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useForm } from "react-hook-form";
 import toast from "react-hot-toast";
-import { Link, useNavigate } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 
 const LandingContact = () => {
   const [spinner, setSpinner] = useState(false);
@@ -48,6 +48,7 @@ const LandingContact = () => {
       })
       .finally(() => setSpinner(false));
   };
+  const { pathname } = useLocation();
   return (
     <div className="bg-dark2">
       <div className="space-bottom">
@@ -61,8 +62,10 @@ const LandingContact = () => {
                 </span>
                 <h2 className="sec-title style2 text-white">Get In Touch</h2>
                 <p className="mb-40 text-white">
-                  Design is this a broad category encompasses various
-                  technological solutions{" "}
+                  {pathname === "/rpa-development" &&
+                    `Automate your business operations with Cognitek.`}
+                  {pathname === "ai-calling-development" &&
+                    `Every call matters. Let Cognitek make every interaction count.`}
                 </p>
                 <div className="social-btn style5 text-white">
                   <Link to="#" tabIndex={-1}>
