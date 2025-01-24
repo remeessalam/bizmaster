@@ -54,7 +54,9 @@ const About = () => {
       {/* <div className="space">
         <WhyChoose />
         </div> */}
-      <FaqThree />
+      <div className="space-top" style={{ background: "#141416" }}>
+        <FaqThree />
+      </div>
       <div className="space-top" style={{ background: "#141416" }}>
         <TestimonialFour />
       </div>

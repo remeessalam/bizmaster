@@ -10,14 +10,14 @@ const FaqThree = () => {
   };
   return (
     <section className="bg-dark2">
-      <section className="faq-area-5 space-top">
+      <section className="faq-area-5 ">
         <div className="container">
           <div className="row gy-40 justify-content-center">
             <div className="col-xxl-6 text-xxl-start text-center">
               <div className="title-area mb-60">
                 <span className="sub-title style2">
                   <img src="assets/img/icon/title_left2.svg" alt="shape" />
-                  Ask Question
+                  Frequently Asked Questions
                 </span>
                 <h2 className="sec-title style2 text-white">
                   Transforming Vision into Reality Together

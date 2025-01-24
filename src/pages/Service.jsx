@@ -32,7 +32,9 @@ const Service = () => {
       <Breadcrumb title="Service" />
 
       {/* ServiceOne */}
-      <ServiceFive />
+      <div className="space-top" style={{ background: "#141416" }}>
+        <ServiceFive />
+      </div>
       {/* <ServiceView /> */}
 
       {/* AppointmentTwo */}

@@ -10,7 +10,7 @@ const ServiceFive = ({ numberOfServices }) => {
 
   return (
     <section className="bg-dark2">
-      <div className="service-area-4 space-top position-relative">
+      <div className="service-area-4  position-relative">
         <div className="shadow-shape-right" />
         <div className="container">
           <div className="row justify-content-center">
