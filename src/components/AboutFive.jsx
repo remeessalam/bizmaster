@@ -38,14 +38,13 @@ const AboutFive = () => {
                   About Us
                 </span>
                 <h2 className="sec-title style2 text-white">
-                  Welcome to Cognitech Solutions
+                  Welcome to Cognitech
                 </h2>
                 <p className="sec-text text-white mb-30">
-                  At Cognitech Solutions , we specialize in driving innovation
-                  and empowering businesses with advanced technology solutions.
-                  From automating workflows to creating tailored software and
-                  building intelligent applications, our mission is to help your
-                  business thrive in a fast-changing digital world.
+                  At Cognitek, we transform businesses with cutting-edge AI
+                  solutions. From streamlining workflows to boosting customer
+                  interactions with AI, we help you thrive in a digital-first
+                  world.
                 </p>
                 <p className="sec-text text-white">
                   Whether you’re looking for efficiency, scalability, or

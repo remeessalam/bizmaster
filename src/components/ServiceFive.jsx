@@ -21,7 +21,7 @@ const ServiceFive = ({ numberOfServices }) => {
                   Our Services
                 </span>
                 <h2 className="sec-title style2 text-white">
-                  Your Business Goals with the Confidence{" "}
+                  Achieve Your Business Goals with Confidence
                 </h2>
               </div>
             </div>

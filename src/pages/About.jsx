@@ -21,7 +21,7 @@ const About = () => {
     }, 500);
   }, []);
   return (
-    <>
+    <div className="">
       {/* Preloader */}
       {active === true && <Preloader />}
 
@@ -55,13 +55,15 @@ const About = () => {
         <WhyChoose />
         </div> */}
       <FaqThree />
-      <TestimonialFour />
+      <div className="space-top" style={{ background: "#141416" }}>
+        <TestimonialFour />
+      </div>
       {/* Newsletter */}
       {/* <Newsletter /> */}
 
       {/* FooterOne */}
       <Footer />
-    </>
+    </div>
   );
 };
 

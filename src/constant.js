@@ -63,7 +63,7 @@ export const routes = [
 ];
 
 export const companyDetails = {
-  name: "COGNITECH SOLUTIONS",
+  name: "COGNITECH",
   email: "cogniteknologies@gmail.com",
   phone: "+91-7530003599",
   whatsapp: "7530003599",
@@ -77,49 +77,49 @@ export const services = [
     img: rpa,
     title: "Robotic Process Automation (RPA)",
     description:
-      "Simplify your operations and reduce errors with our RPA solutions. We help businesses automate repetitive tasks, optimize workflows, and boost productivity, so you can focus on strategic growth.",
+      "Streamline operations and eliminate errors with our smart RPA solutions. Let us handle the repetitive tasks while you focus on driving growth and innovation.",
   },
   {
     id: 2,
     img: custome,
     title: "AI Calling Agency",
     description:
-      "Transform how your business connects with customers. Our AI calling solutions handle inbound and outbound calls seamlessly, from booking appointments to qualifying leads. Save time, reduce costs, and increase close rates with our cutting-edge AI agents.",
+      "Effortlessly manage inbound and outbound calls with AI-powered solutions for better conversions and efficiency.From booking appointments to qualifying leads, our intelligent agents handle it all.",
   },
   {
     id: 3,
     img: ai,
     title: "Artificial Intelligence Development",
     description:
-      "Leverage the power of AI to solve complex challenges, enhance decision-making, and unlock new opportunities. Our AI solutions are designed to integrate effortlessly into your processes, delivering measurable results.",
+      "Harness AI to solve challenges, improve decisions and unlock opportunities with seamless results-driven solutions.",
   },
   {
     id: 4,
     img: web,
     title: "Web Development",
     description:
-      "Your website is more than just a digital presence—it’s a gateway to growth. We create dynamic, responsive, and user-friendly websites that leave a lasting impression on your audience.",
+      "Build dynamic, responsive websites that captivate your audience and drive growth effortlessly.",
   },
   {
     id: 5,
     img: app,
     title: "Mobile App Development",
     description:
-      "Connect with your customers wherever they are. Our mobile app development team builds high-performing, intuitive applications that deliver seamless user experiences across all devices.",
+      "Reach your customers anywhere with powerful, intuitive apps designed to deliver outstanding performance and user satisfaction.",
   },
   {
     id: 6,
     img: chat,
     title: "Chatbot Development",
     description:
-      "Enhance customer interactions and streamline support with intelligent chatbot solutions. From answering queries to driving engagement, our chatbots provide instant, personalized responses tailored to your business needs.",
+      "Drive engagement and boost conversions with intelligent chatbots delivering instant, personalized responses tailored to your business.",
   },
   {
     id: 7,
     img: ml,
     title: "Machine Learning Solutions",
     description:
-      "Transform your data into actionable insights with our machine learning expertise. We develop models that enable smarter decisions, improve operations, and uncover hidden opportunities in your data.",
+      "Boost decision-making and uncover opportunities with machine learning models that transform your data into actionable insights.",
   },
 ];
 
@@ -127,7 +127,7 @@ export const whychooseus = [
   {
     id: 1,
     imgSrc: "assets/img/blog/blog_s5_1.png",
-    altText: "COGNITECH SOLUTIONS",
+    altText: "COGNITECH",
     title: "Tailored Approach",
     desc: "We believe in creating solutions that align perfectly with your goals and challenges.",
     date: "October 19, 2022",
@@ -137,7 +137,7 @@ export const whychooseus = [
   {
     id: 2,
     imgSrc: "assets/img/blog/blog_s5_2.png",
-    altText: "COGNITECH SOLUTIONS",
+    altText: "COGNITECH",
     title: "Expertise You Can Trust",
     desc: "Our team has a proven track record of delivering results across various industries.",
     date: "October 19, 2022",
@@ -147,7 +147,7 @@ export const whychooseus = [
   {
     id: 3,
     imgSrc: "assets/img/blog/blog_s5_3.png",
-    altText: "COGNITECH SOLUTIONS",
+    altText: "COGNITECH",
     title: "Innovation-Driven",
     desc: "We incorporate the latest technologies to keep your business ahead of the competition.",
     date: "October 19, 2022",
@@ -157,7 +157,7 @@ export const whychooseus = [
   {
     id: 4,
     imgSrc: "assets/img/blog/blog_s5_2.png",
-    altText: "COGNITECH SOLUTIONS",
+    altText: "COGNITECH",
     title: "Collaborative Process",
     desc: "From planning to execution, we work closely with you to ensure transparency and success.",
     date: "October 19, 2022",
@@ -169,67 +169,43 @@ export const whychooseus = [
 export const testimonials = [
   {
     id: 1,
-    service: "Robotic Process Automation (RPA)",
-    quote: `"Partnering with Cognitech Solutions for RPA was a game-changer. Their solution automated our data entry processes, saving us over 100 hours a month and eliminating errors entirely. Our team can now focus on high-value tasks."`,
-    author: "James P.",
-    position: "Operations Manager",
-    company: "TechSphere Inc.",
-  },
-  {
-    id: 2,
-    service: "Custom Software Development",
-    quote: `"Cognitech Solutions delivered a custom software platform that transformed how we manage projects. The seamless design and powerful functionality have significantly boosted our team’s productivity and collaboration."`,
-    author: "Rachel W.",
-    position: "Project Lead",
-    company: "InnovateWorks",
-  },
-  {
-    id: 3,
-    service: "Artificial Intelligence Development",
-    quote: `"The AI solution developed by Cognitech Solutions revolutionized our decision-making process. With predictive insights and automated workflows, we’ve achieved remarkable efficiency in our operations."`,
-    author: "Liam H.",
-    position: "Director of Analytics",
-    company: "DataVision Corp.",
-  },
-  {
-    id: 4,
-    service: "Web Development",
-    quote: `"Our website redesign with Cognitech Solutions was a huge success! The new site is fast, user-friendly, and has received incredible feedback from our customers. It’s helped us double our online inquiries."`,
-    author: "Sophia K.",
-    position: "Marketing Head",
-    company: "BrightPath Co.",
-  },
-  {
-    id: 5,
-    service: "Mobile App Development",
-    quote: `"Cognitech Solutions built an exceptional mobile app for our business that has completely transformed how we interact with customers. The sleek design and flawless performance have set us apart from our competitors."`,
-    author: "Ethan T.",
-    position: "CEO",
-    company: "GoMobile Solutions",
-  },
-  {
-    id: 6,
-    service: "Chatbot Development",
-    quote: `"The chatbot developed by Cognitech Solutions has been a fantastic addition to our customer service. It handles over 80% of queries instantly, improving response times and reducing the load on our support team."`,
-    author: "Olivia M.",
-    position: "Customer Success Manager",
-    company: "ChatEase Inc.",
-  },
-  {
-    id: 7,
-    service: "Machine Learning Solutions",
-    quote: `"Cognitech Solutions delivered a machine learning model that helped us identify key trends in our data. The insights have been instrumental in optimizing our marketing strategy and increasing ROI by 25%."`,
-    author: "Noah L.",
-    position: "Head of Marketing",
-    company: "Insightly AI",
-  },
-  {
-    id: 8,
-    service: "Document Automation",
-    quote: `"With Cognitech's document automation solution, we’ve eliminated manual errors and drastically reduced processing time. Generating, reviewing, and sharing documents is now seamless and effortless. A true productivity booster!"`,
+    quote:
+      "With Cognitek's document automation solution, we’ve eliminated manual errors and drastically reduced processing time. Generating, reviewing, and sharing documents is now seamless and effortless. A true productivity booster!",
     author: "Teja Reddy",
     position: "Director of Operations",
     company: "Pioneer Enviro Pvt Ltd",
+  },
+  {
+    id: 2,
+    quote:
+      "Cognitek has transformed our communication at Premier Properties Realty. Their AI agents handle all our inbound inquiries and appointment bookings flawlessly, saving us time and increasing client satisfaction. It’s a true game-changer for our business!",
+    author: "Sarah L.",
+    position: "Managing Director",
+    company: "Premier Properties Realty",
+  },
+  {
+    id: 3,
+    quote:
+      "Cognitek RPA expertise streamlined our invoicing and payroll processes at BrightPath Logistics. The automation saved us over 20 hours per week and completely eliminated errors. Our operations have never been smoother.",
+    author: "Alan B.",
+    position: "Operations Lead",
+    company: "BrightPath Logistics",
+  },
+  {
+    id: 4,
+    quote:
+      "The custom AI model developed by Cognitek has transformed our inventory management system at RetailPro Solutions. We’ve reduced overstock issues by 25% and streamlined our supply chain like never before.",
+    author: "Martin K.",
+    position: "Supply Chain Manager",
+    company: "RetailPro Solutions",
+  },
+  {
+    id: 5,
+    quote:
+      "Our chatbot by Cognitek has revolutionized customer service at GreenLeaf Grocers. It handles 85% of inquiries instantly, and our support team can now focus on resolving complex issues.",
+    author: "Ethan S.",
+    position: "Customer Support Lead",
+    company: "GreenLeaf Grocers",
   },
 ];
 
@@ -264,52 +240,51 @@ export const awards = [
 export const faqs = [
   {
     id: 1,
-    question: "What services does Cognitech Solutions offer?",
+    question: "What services does Cognitech offer?",
     answer:
-      "Cognitech Solutions specializes in a range of technology services, including Robotic Process Automation (RPA), custom software development, artificial intelligence development, web and mobile app development, chatbot solutions, and machine learning expertise.",
+      "Cognitech specializes in a range of technology services, including Robotic Process Automation (RPA), custom software development, artificial intelligence development, web and mobile app development, chatbot solutions, and machine learning expertise.",
   },
   {
     id: 2,
-    question: "Why should I choose Cognitech Solutions?",
+    question: "Why should I choose Cognitech?",
     answer:
-      "Cognitech Solutions provides a tailored approach, proven expertise across industries, innovative solutions, and a collaborative process to ensure transparency and success in delivering impactful technology solutions.",
+      "Cognitech provides a tailored approach, proven expertise across industries, innovative solutions, and a collaborative process to ensure transparency and success in delivering impactful technology solutions.",
   },
   {
     id: 3,
-    question: "What notable achievements has Cognitech Solutions received?",
+    question: "What notable achievements has Cognitech received?",
     answer:
-      "Cognitech Solutions has been recognized globally with awards like the 2023 AI Excellence Award, Top RPA Innovator 2024, Best Emerging Tech Company at the Global Tech Summit 2023, and the Innovation in Workflow Automation award from the Digital Transformation Council.",
+      "Cognitech has been recognized globally with awards like the 2023 AI Excellence Award, Top RPA Innovator 2024, Best Emerging Tech Company at the Global Tech Summit 2023, and the Innovation in Workflow Automation award from the Digital Transformation Council.",
   },
   {
     id: 4,
-    question: "What are some key milestones Cognitech Solutions has achieved?",
+    question: "What are some key milestones Cognitech has achieved?",
     answer:
-      "Cognitech Solutions has successfully completed over 500 AI and RPA projects, achieved a 98% client satisfaction rate, and delivered over 30,000 hours of workflow automation across industries such as finance, healthcare, retail, and logistics.",
+      "Cognitech has successfully completed over 500 AI and RPA projects, achieved a 98% client satisfaction rate, and delivered over 30,000 hours of workflow automation across industries such as finance, healthcare, retail, and logistics.",
   },
   {
     id: 5,
-    question:
-      "How does Cognitech Solutions ensure the success of its projects?",
+    question: "How does Cognitech ensure the success of its projects?",
     answer:
-      "Cognitech Solutions emphasizes a collaborative process, working closely with clients from planning to execution. This ensures that all solutions are tailored to specific business needs and deliver measurable results.",
+      "Cognitech emphasizes a collaborative process, working closely with clients from planning to execution. This ensures that all solutions are tailored to specific business needs and deliver measurable results.",
   },
   {
     id: 6,
-    question: "Can Cognitech Solutions assist with digital transformation?",
+    question: "Can Cognitech assist with digital transformation?",
     answer:
-      "Yes, Cognitech Solutions specializes in helping businesses embrace digital transformation through cutting-edge technologies such as AI, RPA, and workflow automation, ensuring efficiency and scalability.",
+      "Yes, Cognitech specializes in helping businesses embrace digital transformation through cutting-edge technologies such as AI, RPA, and workflow automation, ensuring efficiency and scalability.",
   },
   // {
   //   id: 7,
-  //   question: "Does Cognitech Solutions provide post-project support?",
+  //   question: "Does Cognitech provide post-project support?",
   //   answer:
-  //     "Absolutely. Cognitech Solutions offers comprehensive post-project support and maintenance to ensure smooth implementation and long-term success for all solutions delivered.",
+  //     "Absolutely. Cognitech offers comprehensive post-project support and maintenance to ensure smooth implementation and long-term success for all solutions delivered.",
   // },
   // {
   //   id: 8,
-  //   question: "What industries does Cognitech Solutions serve?",
+  //   question: "What industries does Cognitech serve?",
   //   answer:
-  //     "Cognitech Solutions serves a diverse range of industries, including finance, healthcare, retail, logistics, and more. Our expertise allows us to address industry-specific challenges effectively.",
+  //     "Cognitech serves a diverse range of industries, including finance, healthcare, retail, logistics, and more. Our expertise allows us to address industry-specific challenges effectively.",
   // },
 ];
 

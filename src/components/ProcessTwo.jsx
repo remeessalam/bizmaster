@@ -11,7 +11,7 @@ const ProcessTwo = () => {
               <div className="title-area">
                 <span className="sub-title style2">
                   <img src="assets/img/icon/title_left2.svg" alt="shape" />
-                  Why Cognitech Solutions?
+                  Why Cognitech?
                 </span>
                 <h2 className="sec-title style2 text-white">
                   Our Commitment to Excellence
@@ -20,11 +20,11 @@ const ProcessTwo = () => {
             </div>
             <div className="col-lg-4">
               <p className="mb-60 sec-text text-white mt-0">
-                We are dedicated to providing tailored solutions that address
+                {/* We are dedicated to providing tailored solutions that address
                 your unique needs. By combining expertise, innovation, and
                 collaboration, we help your business succeed and stay
                 competitive in a constantly changing market. Here's why you
-                should choose us
+                should choose us */}
               </p>
             </div>
           </div>

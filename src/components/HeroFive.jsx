@@ -14,14 +14,12 @@ const HeroFive = () => {
               <div className="hero-style5 text-center">
                 <h1 className="hero-title text-white">
                   Transforming Processes with
-                  <span className="text-theme2">RPA</span> &{" "}
-                  <span className="text-theme2">AI</span>
+                  {/* <span className="text-theme2">RPA</span> &{" "} */}
+                  <span className="text-theme2"> AI</span>
                 </h1>
                 <p className="hero-text text-white">
-                  Accelerate innovation with cutting-edge Robotic Process
-                  Automation and Artificial Intelligence solutions designed to
-                  streamline workflows, enhance productivity, and drive business
-                  growth.
+                  Let our AI systems handle the grind while you scale your
+                  success.
                 </p>
               </div>
             </div>

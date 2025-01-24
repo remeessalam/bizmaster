@@ -60,7 +60,7 @@ const TestimonialFour = () => {
                             <div className="testi-card-profile">
                               <div className="testi-profile_thumb">
                                 <img
-                                  src="assets/img/testimonial/testi-thumb_3.png"
+                                  src="assets/img/testimonial/testi-thumb_3.jpg"
                                   alt="img"
                                 />
                               </div>
@@ -69,7 +69,7 @@ const TestimonialFour = () => {
                                   {obj.author}
                                 </h4>
                                 <span className="testi-profile-desig">
-                                  {obj.position} {obj.company}
+                                  {obj.position}, {obj.company}
                                 </span>
                               </div>
                             </div>
