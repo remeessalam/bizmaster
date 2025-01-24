@@ -11,7 +11,7 @@ const ServiceFive = ({ numberOfServices }) => {
   return (
     <section className="bg-dark2">
       <div className="service-area-4  position-relative">
-        <div className="shadow-shape-right" />
+        {/* <div className="shadow-shape-right" /> */}
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-xl-7">
@@ -41,7 +41,8 @@ const ServiceFive = ({ numberOfServices }) => {
                   </div>
                   <div className="service-card_content">
                     <h4 className="service-card_title">
-                      <Link to="/service-details">{service.title}</Link>
+                      {/* <Link to="/service-details">{service.title}</Link> */}
+                      <Link to="#">{service.title}</Link>
                     </h4>
                     <p className="service-card_text">{service.description}</p>
                   </div>
