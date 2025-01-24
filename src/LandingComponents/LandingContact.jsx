@@ -26,7 +26,7 @@ const LandingContact = () => {
     var payload = {
       // to: companyDetails.email,
       to: "remeesreme4u@gmail.com",
-      subject: "You have a new message from COGNITECH",
+      subject: "You have a new message from COGNITEK",
       body: emailBody,
     };
 
@@ -164,7 +164,7 @@ const LandingContact = () => {
                       {spinner ? "Sending..." : "Send Now"}
                       <img
                         src="assets/img/icon/right-icon.svg"
-                        alt="COGNITECH SOLUTIONS"
+                        alt="COGNITEK SOLUTIONS"
                       />
                     </button>
                   </div>

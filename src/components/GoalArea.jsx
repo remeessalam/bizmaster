@@ -75,7 +75,7 @@ const GoalArea = () => {
                   <div className="goal-content_wrapp">
                     <img
                       src="assets/img/icon/angles-left.svg"
-                      alt="COGNITECH SOLUTIONS"
+                      alt="COGNITEK SOLUTIONS"
                     />
                     <div className="goal-content">
                       <h4 className="box-title">
@@ -99,7 +99,7 @@ const GoalArea = () => {
                   <div className="goal-content_wrapp">
                     <img
                       src="assets/img/icon/angles-left.svg"
-                      alt="COGNITECH SOLUTIONS"
+                      alt="COGNITEK SOLUTIONS"
                     />
                     <div className="goal-content">
                       <h4 className="box-title">
@@ -123,7 +123,7 @@ const GoalArea = () => {
                   <div className="goal-content_wrapp">
                     <img
                       src="assets/img/icon/angles-left.svg"
-                      alt="COGNITECH SOLUTIONS"
+                      alt="COGNITEK SOLUTIONS"
                     />
                     <div className="goal-content">
                       <h4 className="box-title">
@@ -147,7 +147,7 @@ const GoalArea = () => {
                   <div className="goal-content_wrapp">
                     <img
                       src="assets/img/icon/angles-left.svg"
-                      alt="COGNITECH SOLUTIONS"
+                      alt="COGNITEK SOLUTIONS"
                     />
                     <div className="goal-content">
                       <h4 className="box-title">Transformational Strategy</h4>
@@ -173,7 +173,7 @@ const GoalArea = () => {
                   <div className="goal-content_wrapp">
                     <img
                       src="assets/img/icon/angles-left.svg"
-                      alt="COGNITECH SOLUTIONS"
+                      alt="COGNITEK SOLUTIONS"
                     />
                     <div className="goal-content">
                       <h4 className="box-title">
@@ -197,7 +197,7 @@ const GoalArea = () => {
                   <div className="goal-content_wrapp">
                     <img
                       src="assets/img/icon/angles-left.svg"
-                      alt="COGNITECH SOLUTIONS"
+                      alt="COGNITEK SOLUTIONS"
                     />
                     <div className="goal-content">
                       <h4 className="box-title">
@@ -221,7 +221,7 @@ const GoalArea = () => {
                   <div className="goal-content_wrapp">
                     <img
                       src="assets/img/icon/angles-left.svg"
-                      alt="COGNITECH SOLUTIONS"
+                      alt="COGNITEK SOLUTIONS"
                     />
                     <div className="goal-content">
                       <h4 className="box-title">
@@ -245,7 +245,7 @@ const GoalArea = () => {
                   <div className="goal-content_wrapp">
                     <img
                       src="assets/img/icon/angles-left.svg"
-                      alt="COGNITECH SOLUTIONS"
+                      alt="COGNITEK SOLUTIONS"
                     />
                     <div className="goal-content">
                       <h4 className="box-title">Transformational Strategy</h4>
@@ -275,7 +275,7 @@ const GoalArea = () => {
                   <div className="goal-content_wrapp">
                     <img
                       src="assets/img/icon/angles-left.svg"
-                      alt="COGNITECH SOLUTIONS"
+                      alt="COGNITEK SOLUTIONS"
                     />
                     <div className="goal-content">
                       <h4 className="box-title">
@@ -299,7 +299,7 @@ const GoalArea = () => {
                   <div className="goal-content_wrapp">
                     <img
                       src="assets/img/icon/angles-left.svg"
-                      alt="COGNITECH SOLUTIONS"
+                      alt="COGNITEK SOLUTIONS"
                     />
                     <div className="goal-content">
                       <h4 className="box-title">
@@ -323,7 +323,7 @@ const GoalArea = () => {
                   <div className="goal-content_wrapp">
                     <img
                       src="assets/img/icon/angles-left.svg"
-                      alt="COGNITECH SOLUTIONS"
+                      alt="COGNITEK SOLUTIONS"
                     />
                     <div className="goal-content">
                       <h4 className="box-title">
@@ -347,7 +347,7 @@ const GoalArea = () => {
                   <div className="goal-content_wrapp">
                     <img
                       src="assets/img/icon/angles-left.svg"
-                      alt="COGNITECH SOLUTIONS"
+                      alt="COGNITEK SOLUTIONS"
                     />
                     <div className="goal-content">
                       <h4 className="box-title">Transformational Strategy</h4>
@@ -373,7 +373,7 @@ const GoalArea = () => {
                   <div className="goal-content_wrapp">
                     <img
                       src="assets/img/icon/angles-left.svg"
-                      alt="COGNITECH SOLUTIONS"
+                      alt="COGNITEK SOLUTIONS"
                     />
                     <div className="goal-content">
                       <h4 className="box-title">
@@ -397,7 +397,7 @@ const GoalArea = () => {
                   <div className="goal-content_wrapp">
                     <img
                       src="assets/img/icon/angles-left.svg"
-                      alt="COGNITECH SOLUTIONS"
+                      alt="COGNITEK SOLUTIONS"
                     />
                     <div className="goal-content">
                       <h4 className="box-title">
@@ -421,7 +421,7 @@ const GoalArea = () => {
                   <div className="goal-content_wrapp">
                     <img
                       src="assets/img/icon/angles-left.svg"
-                      alt="COGNITECH SOLUTIONS"
+                      alt="COGNITEK SOLUTIONS"
                     />
                     <div className="goal-content">
                       <h4 className="box-title">
@@ -445,7 +445,7 @@ const GoalArea = () => {
                   <div className="goal-content_wrapp">
                     <img
                       src="assets/img/icon/angles-left.svg"
-                      alt="COGNITECH SOLUTIONS"
+                      alt="COGNITEK SOLUTIONS"
                     />
                     <div className="goal-content">
                       <h4 className="box-title">Transformational Strategy</h4>

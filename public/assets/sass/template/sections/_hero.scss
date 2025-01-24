@@ -656,6 +656,7 @@
     background-size: 100% calc(100% - 120px);
     background-repeat: no-repeat;
     .hero-thumb5-1 {
+        display: flex;
         max-height: 75vh;
         border-radius: 40px;
         overflow: hidden;
@@ -666,6 +667,14 @@
     @include xs {
         background-size: 100% calc(100% - 70px);
     }
+}
+
+.hero-thumb5-1 img{
+    border-radius: 40px;
+    max-height: 75vh;
+    object-fit: cover;
+    width: 90%;
+    margin: 0 auto;
 }
 .hero-style5 {
     padding-top: 204px;

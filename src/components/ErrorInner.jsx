@@ -12,7 +12,7 @@ const ErrorInner = () => {
                 <img
                   className="img-fluid"
                   src="/assets/img/error.png"
-                  alt="COGNITECH"
+                  alt="Cognitek"
                 />
               </div>
               <div className="text-file">

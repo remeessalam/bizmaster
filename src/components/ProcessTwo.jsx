@@ -11,7 +11,7 @@ const ProcessTwo = () => {
               <div className="title-area">
                 <span className="sub-title style2">
                   <img src="assets/img/icon/title_left2.svg" alt="shape" />
-                  Why Cognitech?
+                  Why Cognitek?
                 </span>
                 <h2 className="sec-title style2 text-white">
                   Our Commitment to Excellence

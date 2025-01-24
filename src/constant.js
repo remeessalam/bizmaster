@@ -63,7 +63,7 @@ export const routes = [
 ];
 
 export const companyDetails = {
-  name: "COGNITECH",
+  name: "Cognitek",
   email: "cogniteknologies@gmail.com",
   phone: "+91-7530003599",
   whatsapp: "7530003599",
@@ -127,7 +127,7 @@ export const whychooseus = [
   {
     id: 1,
     imgSrc: "assets/img/blog/blog_s5_1.png",
-    altText: "COGNITECH",
+    altText: "Cognitek",
     title: "Tailored Approach",
     desc: "We believe in creating solutions that align perfectly with your goals and challenges.",
     date: "October 19, 2022",
@@ -137,7 +137,7 @@ export const whychooseus = [
   {
     id: 2,
     imgSrc: "assets/img/blog/blog_s5_2.png",
-    altText: "COGNITECH",
+    altText: "Cognitek",
     title: "Expertise You Can Trust",
     desc: "Our team has a proven track record of delivering results across various industries.",
     date: "October 19, 2022",
@@ -147,7 +147,7 @@ export const whychooseus = [
   {
     id: 3,
     imgSrc: "assets/img/blog/blog_s5_3.png",
-    altText: "COGNITECH",
+    altText: "Cognitek",
     title: "Innovation-Driven",
     desc: "We incorporate the latest technologies to keep your business ahead of the competition.",
     date: "October 19, 2022",
@@ -157,7 +157,7 @@ export const whychooseus = [
   {
     id: 4,
     imgSrc: "assets/img/blog/blog_s5_2.png",
-    altText: "COGNITECH",
+    altText: "Cognitek",
     title: "Collaborative Process",
     desc: "From planning to execution, we work closely with you to ensure transparency and success.",
     date: "October 19, 2022",
@@ -240,51 +240,51 @@ export const awards = [
 export const faqs = [
   {
     id: 1,
-    question: "What services does Cognitech offer?",
+    question: "What services does Cognitek offer?",
     answer:
-      "Cognitech specializes in a range of technology services, including Robotic Process Automation (RPA), custom software development, artificial intelligence development, web and mobile app development, chatbot solutions, and machine learning expertise.",
+      "Cognitek specializes in a range of technology services, including Robotic Process Automation (RPA), custom software development, artificial intelligence development, web and mobile app development, chatbot solutions, and machine learning expertise.",
   },
   {
     id: 2,
-    question: "Why should I choose Cognitech?",
+    question: "Why should I choose Cognitek?",
     answer:
-      "Cognitech provides a tailored approach, proven expertise across industries, innovative solutions, and a collaborative process to ensure transparency and success in delivering impactful technology solutions.",
+      "Cognitek provides a tailored approach, proven expertise across industries, innovative solutions, and a collaborative process to ensure transparency and success in delivering impactful technology solutions.",
   },
   {
     id: 3,
-    question: "What notable achievements has Cognitech received?",
+    question: "What notable achievements has Cognitek received?",
     answer:
-      "Cognitech has been recognized globally with awards like the 2023 AI Excellence Award, Top RPA Innovator 2024, Best Emerging Tech Company at the Global Tech Summit 2023, and the Innovation in Workflow Automation award from the Digital Transformation Council.",
+      "Cognitek has been recognized globally with awards like the 2023 AI Excellence Award, Top RPA Innovator 2024, Best Emerging Tech Company at the Global Tech Summit 2023, and the Innovation in Workflow Automation award from the Digital Transformation Council.",
   },
   {
     id: 4,
-    question: "What are some key milestones Cognitech has achieved?",
+    question: "What are some key milestones Cognitek has achieved?",
     answer:
-      "Cognitech has successfully completed over 500 AI and RPA projects, achieved a 98% client satisfaction rate, and delivered over 30,000 hours of workflow automation across industries such as finance, healthcare, retail, and logistics.",
+      "Cognitek has successfully completed over 500 AI and RPA projects, achieved a 98% client satisfaction rate, and delivered over 30,000 hours of workflow automation across industries such as finance, healthcare, retail, and logistics.",
   },
   {
     id: 5,
-    question: "How does Cognitech ensure the success of its projects?",
+    question: "How does Cognitek ensure the success of its projects?",
     answer:
-      "Cognitech emphasizes a collaborative process, working closely with clients from planning to execution. This ensures that all solutions are tailored to specific business needs and deliver measurable results.",
+      "Cognitek emphasizes a collaborative process, working closely with clients from planning to execution. This ensures that all solutions are tailored to specific business needs and deliver measurable results.",
   },
   {
     id: 6,
-    question: "Can Cognitech assist with digital transformation?",
+    question: "Can Cognitek assist with digital transformation?",
     answer:
-      "Yes, Cognitech specializes in helping businesses embrace digital transformation through cutting-edge technologies such as AI, RPA, and workflow automation, ensuring efficiency and scalability.",
+      "Yes, Cognitek specializes in helping businesses embrace digital transformation through cutting-edge technologies such as AI, RPA, and workflow automation, ensuring efficiency and scalability.",
   },
   // {
   //   id: 7,
-  //   question: "Does Cognitech provide post-project support?",
+  //   question: "Does Cognitek provide post-project support?",
   //   answer:
-  //     "Absolutely. Cognitech offers comprehensive post-project support and maintenance to ensure smooth implementation and long-term success for all solutions delivered.",
+  //     "Absolutely. Cognitek offers comprehensive post-project support and maintenance to ensure smooth implementation and long-term success for all solutions delivered.",
   // },
   // {
   //   id: 8,
-  //   question: "What industries does Cognitech serve?",
+  //   question: "What industries does Cognitek serve?",
   //   answer:
-  //     "Cognitech serves a diverse range of industries, including finance, healthcare, retail, logistics, and more. Our expertise allows us to address industry-specific challenges effectively.",
+  //     "Cognitek serves a diverse range of industries, including finance, healthcare, retail, logistics, and more. Our expertise allows us to address industry-specific challenges effectively.",
   // },
 ];
 

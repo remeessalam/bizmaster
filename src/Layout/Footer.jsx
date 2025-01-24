@@ -18,7 +18,7 @@ const Footer = () => {
                     <Link to="/">
                       <img
                         src="assets/img/logo.png"
-                        alt="COGNITECH SOLUTIONS"
+                        alt="COGNITEK SOLUTIONS"
                         style={{ height: "7rem" }}
                       />
                     </Link>

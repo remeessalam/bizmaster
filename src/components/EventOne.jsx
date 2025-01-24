@@ -62,7 +62,7 @@ const EventOne = () => {
               <div className="event-shape">
                 <img
                   src="assets/img/normal/event-shape.png"
-                  alt="COGNITECH SOLUTIONS"
+                  alt="COGNITEK SOLUTIONS"
                 />
               </div>
             </div>

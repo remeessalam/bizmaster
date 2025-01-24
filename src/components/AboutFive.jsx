@@ -38,7 +38,7 @@ const AboutFive = () => {
                   About Us
                 </span>
                 <h2 className="sec-title style2 text-white">
-                  Welcome to Cognitech
+                  Welcome to Cognitek
                 </h2>
                 <p className="sec-text text-white mb-30">
                   At Cognitek, we transform businesses with cutting-edge AI

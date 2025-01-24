@@ -79,7 +79,7 @@ const LandingPageHeader = () => {
             <Link to="/">
               <img
                 src="assets/img/logo.png"
-                alt="COGNITECH SOLUTIONS"
+                alt="COGNITEK SOLUTIONS"
                 style={{ height: "4.25rem" }}
               />
             </Link>
