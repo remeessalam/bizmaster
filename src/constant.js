@@ -174,6 +174,7 @@ export const testimonials = [
     author: "Teja Reddy",
     position: "Director of Operations",
     company: "Pioneer Enviro Pvt Ltd",
+    isMale: true,
   },
   {
     id: 2,
@@ -182,6 +183,7 @@ export const testimonials = [
     author: "Sarah L.",
     position: "Managing Director",
     company: "Premier Properties Realty",
+    isMale: false,
   },
   {
     id: 3,
@@ -190,6 +192,7 @@ export const testimonials = [
     author: "Alan B.",
     position: "Operations Lead",
     company: "BrightPath Logistics",
+    isMale: true,
   },
   {
     id: 4,
@@ -198,6 +201,7 @@ export const testimonials = [
     author: "Martin K.",
     position: "Supply Chain Manager",
     company: "RetailPro Solutions",
+    isMale: true,
   },
   {
     id: 5,
@@ -206,6 +210,7 @@ export const testimonials = [
     author: "Ethan S.",
     position: "Customer Support Lead",
     company: "GreenLeaf Grocers",
+    isMale: true,
   },
 ];
 
@@ -396,6 +401,7 @@ export const rpaTestimonials = [
     author: "Mark L.",
     position: "Operations Manager",
     company: "Streamline Corp.",
+    isMale: true,
   },
   {
     id: 2,
@@ -404,6 +410,7 @@ export const rpaTestimonials = [
     author: "Emily R.",
     position: "CFO",
     company: "NovaFinTech",
+    isMale: false,
   },
   {
     id: 3,
@@ -412,6 +419,7 @@ export const rpaTestimonials = [
     author: "Sophia T.",
     position: "Data Manager",
     company: "DigiFlow",
+    isMale: false,
   },
   {
     id: 4,
@@ -420,6 +428,7 @@ export const rpaTestimonials = [
     author: "Jason M.",
     position: "Customer Experience Lead",
     company: "BrightLine Support",
+    isMale: true,
   },
   {
     id: 5,
@@ -428,6 +437,7 @@ export const rpaTestimonials = [
     author: "Linda K.",
     position: "CEO",
     company: "OptiWork Enterprises",
+    isMale: false,
   },
 ];
 export const aiTestimonials = [
@@ -439,6 +449,7 @@ export const aiTestimonials = [
     author: "Sarah M.",
     position: "Lead Agent",
     company: "UrbanNest Realty",
+    isMale: false,
   },
   {
     id: 2,
@@ -448,6 +459,7 @@ export const aiTestimonials = [
     author: "Dr. Emily T.",
     position: "Clinic Manager",
     company: "Healthy Horizons ",
+    isMale: false,
   },
   {
     id: 3,
@@ -457,6 +469,7 @@ export const aiTestimonials = [
     author: "John L.",
     position: "Owner",
     company: "ShopSmart Electronics",
+    isMale: true,
   },
   {
     id: 4,
@@ -466,6 +479,7 @@ export const aiTestimonials = [
     author: "Raj P.",
     position: "Manager",
     company: "Royal Palm Resort",
+    isMale: true,
   },
   {
     id: 5,
@@ -475,6 +489,7 @@ export const aiTestimonials = [
     author: "Lila R.",
     position: "Owner",
     company: "Bliss Haven Spa",
+    isMale: false,
   },
   {
     id: 6,
@@ -484,5 +499,6 @@ export const aiTestimonials = [
     author: "Alex W.",
     position: "Sales Manager",
     company: "CodeTech Innovations",
+    isMale: true,
   },
 ];

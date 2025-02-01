@@ -671,10 +671,18 @@
 
 .hero-thumb5-1 img{
     border-radius: 40px;
-    max-height: 75vh;
+    // max-height: 75vh;
+    max-height: 60vh;
     object-fit: cover;
-    width: 90%;
+    width: 75%;
     margin: 0 auto;
+}
+@media (max-width: 768px) {
+    .hero-thumb5-1 img {
+         max-height: 75vh;
+        border-radius: 15px;
+      width: 90%; 
+    }
 }
 .hero-style5 {
     padding-top: 204px;

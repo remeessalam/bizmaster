@@ -47,7 +47,7 @@ const LandingBanner = ({ page }) => {
                 <img
                   src={
                     page === "rpa"
-                      ? "assets/img/landingpage/rpa/rpabanner.jpg"
+                      ? "assets/img/landingpage/rpa/rpabanner.png"
                       : "assets/img/landingpage/ai/aibanner.jpg"
                   }
                   alt="img"

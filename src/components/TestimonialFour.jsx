@@ -60,7 +60,11 @@ const TestimonialFour = () => {
                             <div className="testi-card-profile">
                               <div className="testi-profile_thumb">
                                 <img
-                                  src="assets/img/testimonial/testi-thumb_3.jpg"
+                                  src={
+                                    obj.isMale
+                                      ? "assets/img/testimonial/testi-thumb_3m.png"
+                                      : "assets/img/testimonial/testi-thumb_3.png"
+                                  }
                                   alt="img"
                                 />
                               </div>
