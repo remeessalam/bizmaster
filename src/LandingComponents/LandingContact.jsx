@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { useForm } from "react-hook-form";
 import toast from "react-hot-toast";
 import { Link, useLocation, useNavigate } from "react-router-dom";
+import { companyDetails } from "../constant";
 
 const LandingContact = () => {
   const [spinner, setSpinner] = useState(false);
