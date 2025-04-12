@@ -24,8 +24,8 @@ const LandingContact = () => {
 
     // Construct the request payload
     var payload = {
-      // to: companyDetails.email,
-      to: "remeesreme4u@gmail.com",
+      to: companyDetails.email,
+      // to: "remeesreme4u@gmail.com",
       subject: "You have a new message from COGNITEK",
       body: emailBody,
     };
